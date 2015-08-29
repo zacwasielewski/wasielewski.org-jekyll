@@ -1,0 +1,30 @@
+---
+layout: post
+status: publish
+published: false
+author:
+  display_name: Zac Wasielewski
+  login: zac@wasielewski.org
+  email: zac@wasielewski.org
+  url: ''
+author_login: zac@wasielewski.org
+author_email: zac@wasielewski.org
+wordpress_id: 68
+wordpress_url: http://wasielewski.org/?p=68
+date: '2013-10-07 16:05:31 -0400'
+date_gmt: '2013-10-07 21:05:31 -0400'
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+<p>Melissa Godowski, a rock climber whose blog I've enjoyed following for years, just posted her <em>Top 31 Things I Have Learned in 365 Days</em>. It's a great list, and applies equally to climbing and life. I have a few favorites, which seem especially applicable to my life at the moment:</p>
+<blockquote>
+<ul>
+<li>Slow and steady wins the race. Go at your own pace, not someone else's.</li>
+<li>The present will dictate the future. Be in the moment and make smart decisions.</li>
+<li>There is no such thing as normal. Even if there was, individuality is too special to give up.</li>
+<li>It is important to have variety. Have a variety in activities and interests just like you would have a variety of vegetable colors.</li>
+<li>Get to know yourself. Learn your patters, likes, and dislikes. Become aware of your emotions. Work together with you body. Having this knowledge about yourself will help you reach your goals faster.</li><br />
+</ul><br />
+— <cite>[Things That I Have Learned](http://godclimbs.blogspot.com/2013/10/things-that-i-have-learned.html)</cite></blockquote></p>
