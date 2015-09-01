@@ -12,10 +12,12 @@ var sass = require('gulp-sass');
 var browserSync = require('browser-sync');
 var shell = require('gulp-shell');
 
+var appDir = './app/'
+
 gulp.task('browser-sync', function() {
   browserSync({
     server: {
-       baseDir: "./app/_site/"
+       baseDir: appDir + "_site/"
     }
   });
 });
@@ -27,11 +29,11 @@ gulp.task('bs-reload', function () {
 gulp.task('images', function(){
   gulp.src('app/src/images/**/*')
     .pipe(cache(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true })))
-    .pipe(gulp.dest('app/dist/images/'));
+    .pipe(gulp.dest(appDir + 'dist/images/'));
 });
 
 gulp.task('styles', function(){
-  gulp.src(['app/src/styles/**/*.scss'])
+  gulp.src([appDir + '_sass/main.scss'])
     .pipe(plumber({
       errorHandler: function (error) {
         console.log(error.message);
@@ -39,15 +41,15 @@ gulp.task('styles', function(){
     }}))
     .pipe(sass())
     .pipe(autoprefixer('last 2 versions'))
-    .pipe(gulp.dest('app/dist/styles/'))
+    .pipe(gulp.dest(appDir + 'css/'))
     .pipe(rename({suffix: '.min'}))
     .pipe(minifycss())
-    .pipe(gulp.dest('app/dist/styles/'))
+    .pipe(gulp.dest(appDir + 'css/'))
     .pipe(browserSync.reload({stream:true}))
 });
 
 gulp.task('scripts', function(){
-  return gulp.src('app/src/scripts/**/*.js')
+  return gulp.src(appDir + 'src/scripts/**/*.js')
     .pipe(plumber({
       errorHandler: function (error) {
         console.log(error.message);
@@ -55,24 +57,28 @@ gulp.task('scripts', function(){
     }}))
     .pipe(concat('main.js'))
     .pipe(babel())
-    .pipe(gulp.dest('app/dist/scripts/'))
+    .pipe(gulp.dest(appDir + 'dist/scripts/'))
     .pipe(rename({suffix: '.min'}))
     .pipe(uglify())
-    .pipe(gulp.dest('app/dist/scripts/'))
+    .pipe(gulp.dest(appDir + 'dist/scripts/'))
     .pipe(browserSync.reload({stream:true}))
 });
 
 gulp.task('jekyll', function () {
-  return gulp.src('_config.yml')
+  return gulp.src(appDir + '_config.yml')
     .pipe(shell([
-      'jekyll build --config <%= file.path %>'
+      'jekyll build --config <%= file.path %> --source ' + appDir + ' --destination ' + appDir + '_site/'
     ]))
     .pipe(browserSync.reload({stream: true}));
 });
 
 gulp.task('watch', ['browser-sync'], function(){
-  gulp.watch(["*.html","*.markdown"], ['jekyll']);
-  //gulp.watch("src/styles/**/*.scss", ['styles']);
+  gulp.watch([
+    appDir + "*.+(html|markdown|md)",
+    appDir + "+(_includes|_layouts)/*.html",
+    appDir + "_posts/*.+(markdown|md)"
+  ], ['jekyll']);
+  gulp.watch( appDir + "_sass/**/*.scss", ['styles', 'jekyll']);
   //gulp.watch("src/scripts/**/*.js", ['scripts']);
   //gulp.watch("*.html", ['bs-reload']);
 });
