@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/zacwasielewski/wasielewski.org-jekyll/issues"
   },
-  "homepage": "https://github.com/zacwasielewski/wasielewski.org-jekyll#readme"
+  "homepage": "https://github.com/zacwasielewski/wasielewski.org-jekyll#readme",
+  "devDependencies": {
+    "gulp-shell": "^0.4.3"
+  }
 }
