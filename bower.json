@@ -1,0 +1,16 @@
+{
+  "name": "wasielewski.org",
+  "version": "0.1.0",
+  "homepage": "https://github.com/zacwasielewski/wasielewski.org-jekyll",
+  "authors": [
+    "Zac Wasielewski <zac@wasielewski.org>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
