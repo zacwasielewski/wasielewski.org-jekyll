@@ -12,5 +12,12 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "compass-breakpoint": "~2.6.1",
+    "modular-scale": "~2.1.1",
+    "normalize-scss": "~3.0.3",
+    "sassline": "git@github.com:zacwasielewski/sassline.git#~2.1.1",
+    "susy": "~2.2.6"
+  }
 }

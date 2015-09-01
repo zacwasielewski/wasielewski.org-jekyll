@@ -39,7 +39,7 @@ gulp.task('styles', function(){
         console.log(error.message);
         this.emit('end');
     }}))
-    .pipe(sass())
+    .pipe(sass({includePaths: ['bower_components']}))
     .pipe(autoprefixer('last 2 versions'))
     .pipe(gulp.dest(appDir + 'css/'))
     .pipe(rename({suffix: '.min'}))
