@@ -10,11 +10,12 @@ var imagemin = require('gulp-imagemin'),
 var minifycss = require('gulp-minify-css');
 var sass = require('gulp-sass');
 var browserSync = require('browser-sync');
+var shell = require('gulp-shell');
 
 gulp.task('browser-sync', function() {
   browserSync({
     server: {
-       baseDir: "./"
+       baseDir: "./app/_site/"
     }
   });
 });
@@ -24,13 +25,13 @@ gulp.task('bs-reload', function () {
 });
 
 gulp.task('images', function(){
-  gulp.src('src/images/**/*')
+  gulp.src('app/src/images/**/*')
     .pipe(cache(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true })))
-    .pipe(gulp.dest('dist/images/'));
+    .pipe(gulp.dest('app/dist/images/'));
 });
 
 gulp.task('styles', function(){
-  gulp.src(['src/styles/**/*.scss'])
+  gulp.src(['app/src/styles/**/*.scss'])
     .pipe(plumber({
       errorHandler: function (error) {
         console.log(error.message);
@@ -38,15 +39,15 @@ gulp.task('styles', function(){
     }}))
     .pipe(sass())
     .pipe(autoprefixer('last 2 versions'))
-    .pipe(gulp.dest('dist/styles/'))
+    .pipe(gulp.dest('app/dist/styles/'))
     .pipe(rename({suffix: '.min'}))
     .pipe(minifycss())
-    .pipe(gulp.dest('dist/styles/'))
+    .pipe(gulp.dest('app/dist/styles/'))
     .pipe(browserSync.reload({stream:true}))
 });
 
 gulp.task('scripts', function(){
-  return gulp.src('src/scripts/**/*.js')
+  return gulp.src('app/src/scripts/**/*.js')
     .pipe(plumber({
       errorHandler: function (error) {
         console.log(error.message);
@@ -54,15 +55,24 @@ gulp.task('scripts', function(){
     }}))
     .pipe(concat('main.js'))
     .pipe(babel())
-    .pipe(gulp.dest('dist/scripts/'))
+    .pipe(gulp.dest('app/dist/scripts/'))
     .pipe(rename({suffix: '.min'}))
     .pipe(uglify())
-    .pipe(gulp.dest('dist/scripts/'))
+    .pipe(gulp.dest('app/dist/scripts/'))
     .pipe(browserSync.reload({stream:true}))
 });
 
-gulp.task('default', ['browser-sync'], function(){
-  gulp.watch("src/styles/**/*.scss", ['styles']);
-  gulp.watch("src/scripts/**/*.js", ['scripts']);
-  gulp.watch("*.html", ['bs-reload']);
+gulp.task('jekyll', function () {
+  return gulp.src('_config.yml')
+    .pipe(shell([
+      'jekyll build --config <%= file.path %>'
+    ]))
+    .pipe(browserSync.reload({stream: true}));
+});
+
+gulp.task('watch', ['browser-sync'], function(){
+  gulp.watch(["*.html","*.markdown"], ['jekyll']);
+  //gulp.watch("src/styles/**/*.scss", ['styles']);
+  //gulp.watch("src/scripts/**/*.js", ['scripts']);
+  //gulp.watch("*.html", ['bs-reload']);
 });
