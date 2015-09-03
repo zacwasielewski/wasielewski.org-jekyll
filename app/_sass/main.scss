@@ -6,15 +6,18 @@
 
 // Import from bower_components/
 @import "normalize-scss/_normalize.scss";
-@import "susy/sass/_susy.scss";
+//@import "susy/sass/_susy.scss";
 @import "modular-scale/stylesheets/_modular-scale.scss";
-@import "sassline/assets/sass/base/_reset.scss";
-@import "sassline/assets/sass/base/_variables.scss";
-@import "sassline/assets/sass/base/_modular-scale.scss";
-@import "sassline/assets/sass/base/_mixins.scss";
-@import "sassline/assets/sass/base/_typography.scss";
+//@import "sassline/assets/sass/base/_reset.scss";
+//@import "sassline/assets/sass/base/_variables.scss";
+//@import "sassline/assets/sass/base/_modular-scale.scss";
+//@import "sassline/assets/sass/base/_mixins.scss";
+//@import "sassline/assets/sass/base/_typography.scss";
 //@import "sassline/assets/sass/base/_layouts.scss";
+@import "typographic/scss/typographic.scss";
+//@import "baseline";
 
 @import "base";
 @import "layout";
-@import "syntax-highlighting";
+@import "content";
+//@import "syntax-highlighting";

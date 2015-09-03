@@ -19,5 +19,8 @@
     "normalize-scss": "~3.0.3",
     "sassline": "git@github.com:zacwasielewski/sassline.git#~2.1.1",
     "susy": "~2.2.6"
+  },
+  "devDependencies": {
+    "typographic": "~2.9.3"
   }
 }

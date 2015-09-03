@@ -6,8 +6,8 @@
 </description>
     <link>http://wasielewski.org/</link>
     <atom:link href="http://wasielewski.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 01 Sep 2015 17:11:01 -0400</pubDate>
-    <lastBuildDate>Tue, 01 Sep 2015 17:11:01 -0400</lastBuildDate>
+    <pubDate>Thu, 03 Sep 2015 17:18:34 -0400</pubDate>
+    <lastBuildDate>Thu, 03 Sep 2015 17:18:34 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -196,12 +196,11 @@
     
       <item>
         <title>What Problems to Solve</title>
-        <description>&lt;figure class=&quot;quote&quot;&gt;
-&lt;blockquote cite=&quot;http://genius.cat-v.org/richard-feynman/writtings/letters/problems&quot;&gt;
-&lt;p&gt;You say you are a nameless man. You are not to your wife and to your child. You will not long remain so to your immediate colleagues if you can answer their simple questions when they come into your office. You are not nameless to me. Do not remain nameless to yourself &amp;ndash; it is too sad a way to be. &lt;strong&gt;Know your place in the world and evaluate yourself fairly, not in terms of your na&amp;iuml;ve ideals of your own youth, nor in terms of what you erroneously imagine your teacher&#39;s ideals are.&lt;/strong&gt;&lt;/p&gt;
-&lt;footer&gt;&lt;cite&gt;Richard Feynman, [What Problems to Solve](http://genius.cat-v.org/richard-feynman/writtings/letters/problems)&lt;/cite&gt;&lt;/footer&gt;&lt;br /&gt;
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;You say you are a nameless man. You are not to your wife and to your child. You will not long remain so to your immediate colleagues if you can answer their simple questions when they come into your office. You are not nameless to me. Do not remain nameless to yourself – it is too sad a way to be. &lt;strong&gt;Know your place in the world and evaluate yourself fairly, not in terms of your naïve ideals of your own youth, nor in terms of what you erroneously imagine your teacher’s ideals are.&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;Richard Feynman, &lt;a href=&quot;http://genius.cat-v.org/richard-feynman/writtings/letters/problems&quot;&gt;What Problems to Solve&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;/figure&gt;
 </description>
         <pubDate>Fri, 18 Jul 2014 11:21:04 -0400</pubDate>
         <link>http://wasielewski.org/uncategorized/2014/07/18/what-problems-to-solve.html</link>
@@ -346,7 +345,7 @@ RewriteRule . index.php [L]
         <description>&lt;blockquote&gt;
   &lt;p&gt;Relationships are everything. Getting what we want, having things our way, having control, being right … these things matter nothing compared to relationships. Imagine being in your death bed at the age of 80 … will your sense of being right and in control comfort you when you have no good relationships, no one who has loved you?&lt;/p&gt;
 
-  &lt;p&gt;— Leo Babuta in &lt;cite&gt;&lt;a href=&quot;http://zenhabits.net/aol/&quot;&gt;My Pursuit of the Art of Living&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;cite&gt;— Leo Babuta in &lt;a href=&quot;http://zenhabits.net/aol/&quot;&gt;My Pursuit of the Art of Living&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
         <pubDate>Mon, 07 Oct 2013 10:14:39 -0400</pubDate>
@@ -363,7 +362,7 @@ RewriteRule . index.php [L]
         <description>&lt;blockquote&gt;
   &lt;p&gt;I think as experienced game developers / engineers / artists / makers, we don’t realize how we’ve developed strong senses of “vision” — the ability to visualize and maintain this thing in our head, and gradually work to realize that thing into existence despite countless obstacles. Frequent failure is expected! But this kind of emotional intelligence, to be patient with yourself and your work, takes time to cultivate. &lt;em&gt;People have trouble grasping this if they are new to making things, and maybe it’s our mission to help them own their constant failures.&lt;/em&gt;&lt;/p&gt;
 
-  &lt;p&gt;— Robert Yang in &lt;cite&gt;&lt;a href=&quot;http://www.blog.radiator.debacle.us/2013/09/teaching-struggle.html&quot;&gt;Teaching struggle.&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;cite&gt;— Robert Yang in &lt;a href=&quot;http://www.blog.radiator.debacle.us/2013/09/teaching-struggle.html&quot;&gt;Teaching struggle.&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
         <pubDate>Mon, 23 Sep 2013 14:45:58 -0400</pubDate>

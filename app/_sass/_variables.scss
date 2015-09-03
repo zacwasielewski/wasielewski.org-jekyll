@@ -1,20 +1,26 @@
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+// Vintage
+// Heading: futura-pt
+// Body:    grad
+// Mono:    letter-gothic-std
+//
+// Modern
+// Heading: sofia-pro-condensed
+// Body:    chaparral-pro
+// Mono:    inconsolata
 
-$spacing-unit:     30px;
+$sans-serif: 'sofia-pro', sans-serif;
+$serif: 'chaparral-pro', serif;
+$mono: 'inconsolata', mono;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$light: 300;
+$normal: 400;
+$semibold: 500;
+$bold: 700;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$sans-serif-normal: 400;
+$sans-serif-bold: 600;
+$serif-normal: 400;
+$serif-bold: 600;
+$mono-normal: 500;
 
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
+$font-size-base: 16px;
