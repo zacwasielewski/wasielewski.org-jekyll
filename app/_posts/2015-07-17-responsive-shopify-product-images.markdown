@@ -3,15 +3,8 @@ layout: post
 status: publish
 published: true
 title: Responsive Shopify product images
-author:
-  display_name: Zac Wasielewski
-  login: zac@wasielewski.org
-  email: zac@wasielewski.org
-  url: ''
-author_login: zac@wasielewski.org
+author: Zac Wasielewski
 author_email: zac@wasielewski.org
-wordpress_id: 209
-wordpress_url: http://wasielewski.org/?p=209
 date: '2015-07-17 02:13:49 -0400'
 date_gmt: '2015-07-17 02:13:49 -0400'
 categories:

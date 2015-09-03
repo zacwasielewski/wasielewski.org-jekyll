@@ -3,15 +3,8 @@ layout: post
 status: publish
 published: true
 title: Links
-author:
-  display_name: Zac Wasielewski
-  login: zac@wasielewski.org
-  email: zac@wasielewski.org
-  url: ''
-author_login: zac@wasielewski.org
+author: Zac Wasielewski
 author_email: zac@wasielewski.org
-wordpress_id: 141
-wordpress_url: http://wasielewski.org/wp/?p=141
 date: '2015-01-15 15:25:10 -0500'
 date_gmt: '2015-01-15 20:25:10 -0500'
 categories:

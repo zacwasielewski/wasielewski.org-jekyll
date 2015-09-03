@@ -3,11 +3,7 @@ layout: post
 status: publish
 published: true
 title: On Contributing
-author:
-  display_name: Zac Wasielewski
-  login: zac@wasielewski.org
-  email: zac@wasielewski.org
-  url: ''
+author: Zac Wasielewski
 author_login: zac@wasielewski.org
 author_email: zac@wasielewski.org
 wordpress_id: 8

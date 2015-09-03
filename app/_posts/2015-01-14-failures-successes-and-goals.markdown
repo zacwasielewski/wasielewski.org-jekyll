@@ -3,15 +3,8 @@ layout: post
 status: publish
 published: true
 title: Failures, Successes, and Goals
-author:
-  display_name: Zac Wasielewski
-  login: zac@wasielewski.org
-  email: zac@wasielewski.org
-  url: ''
-author_login: zac@wasielewski.org
+author: Zac Wasielewski
 author_email: zac@wasielewski.org
-wordpress_id: 138
-wordpress_url: http://wasielewski.org/wp/?p=138
 date: '2015-01-14 17:01:17 -0500'
 date_gmt: '2015-01-14 22:01:17 -0500'
 categories:

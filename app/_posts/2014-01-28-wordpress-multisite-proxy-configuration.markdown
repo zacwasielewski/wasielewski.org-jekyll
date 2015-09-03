@@ -3,15 +3,8 @@ layout: post
 status: publish
 published: true
 title: WordPress multisite proxy configuration
-author:
-  display_name: Zac Wasielewski
-  login: zac@wasielewski.org
-  email: zac@wasielewski.org
-  url: ''
-author_login: zac@wasielewski.org
+author: Zac Wasielewski
 author_email: zac@wasielewski.org
-wordpress_id: 90
-wordpress_url: http://wasielewski.org/?p=90
 date: '2014-01-28 15:04:47 -0500'
 date_gmt: '2014-01-28 20:04:47 -0500'
 categories:

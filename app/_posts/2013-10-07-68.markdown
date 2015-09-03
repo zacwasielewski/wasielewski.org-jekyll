@@ -2,15 +2,8 @@
 layout: post
 status: publish
 published: false
-author:
-  display_name: Zac Wasielewski
-  login: zac@wasielewski.org
-  email: zac@wasielewski.org
-  url: ''
-author_login: zac@wasielewski.org
+author: Zac Wasielewski
 author_email: zac@wasielewski.org
-wordpress_id: 68
-wordpress_url: http://wasielewski.org/?p=68
 date: '2013-10-07 16:05:31 -0400'
 date_gmt: '2013-10-07 21:05:31 -0400'
 categories:

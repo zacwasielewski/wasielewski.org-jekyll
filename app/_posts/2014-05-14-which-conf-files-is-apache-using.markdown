@@ -3,15 +3,8 @@ layout: post
 status: publish
 published: true
 title: Which .conf file(s) is Apache using?
-author:
-  display_name: Zac Wasielewski
-  login: zac@wasielewski.org
-  email: zac@wasielewski.org
-  url: ''
-author_login: zac@wasielewski.org
+author: Zac Wasielewski
 author_email: zac@wasielewski.org
-wordpress_id: 96
-wordpress_url: http://wasielewski.org/wp/?p=96
 date: '2014-05-14 14:22:40 -0400'
 date_gmt: '2014-05-14 19:22:40 -0400'
 categories:
