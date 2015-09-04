@@ -8,19 +8,34 @@
 // Body:    chaparral-pro
 // Mono:    inconsolata
 
-$sans-serif: 'sofia-pro', sans-serif;
-$serif: 'chaparral-pro', serif;
-$mono: 'inconsolata', mono;
 
-$light: 300;
-$normal: 400;
-$semibold: 500;
-$bold: 700;
 
-$sans-serif-normal: 400;
-$sans-serif-bold: 600;
-$serif-normal: 400;
-$serif-bold: 600;
-$mono-normal: 500;
+//$light: 300;
+//$normal: 400;
+//$semibold: 500;
+//$bold: 700;
+//
+//$sans-serif-normal: 400;
+//$sans-serif-bold: 600;
+//$serif-normal: 400;
+//$serif-bold: 600;
+//$mono-normal: 500;
+//
+//$font-size-base: 16px;
 
-$font-size-base: 16px;
+// Plugin: https://github.com/ianrose/typesettings
+//$font-sans: 'sofia-pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+//$font-serif: 'chaparral-pro', Georgia, 'Times New Roman', serif;
+//$font-mono: 'inconsolata', 'Lucida Console', Monaco, monospace;
+//$text-color: #000;
+//$base-vertical-unit: 6px;
+//$base-line-multi: 4;
+//$base-font-size: 20px;
+//$ms-ratio: 1;
+//$paragraph-indent: true;
+//$paragraph-justify: false;
+//$load-typesetted: true;
+
+// Plugin: https://github.com/modularscale/modularscale-sass
+//$ms-base: $base-font-size;
+//$ms-ratio: $golden;

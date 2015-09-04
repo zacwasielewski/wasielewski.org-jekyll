@@ -1,0 +1,8 @@
+// https://markgoodyear.com/2015/06/introducing-the-vr-unit-to-create-simple-vertical-rhythm-using-postcss/
+@function vr($amount) {
+  @return $line-height * $amount;
+}
+
+@function strip-units($value) {
+  @return $value / ($value * 0 + 1);
+}

@@ -1,0 +1,103 @@
+$sans-serif: 'sofia-pro', sans-serif;
+$serif: 'chaparral-pro', serif;
+$mono: 'inconsolata', mono;
+
+$base-font-size:   1.25rem; // 1 rem
+$base-line-height: 2;
+
+$ms-base:  $base-font-size;
+$ms-ratio: 1.4;
+
+body{
+  @include vr-baseline($base-font-size, $base-line-height);
+}
+
+// Define some styles
+
+.serif {
+  font-family: $serif;
+}
+.sans-serif {
+  font-family: $sans-serif;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  @extend .sans-serif;
+}
+
+.h1 { font-size: ms(2); line-height: vr(ms(0),2); margin-top: vr(ms(0),1); margin-bottom: vr(ms(0),1); }
+.h2 { font-size: ms(1); line-height: vr(ms(0),1); margin-top: vr(ms(0),1); margin-bottom: vr(ms(0),1); }
+.h3 { font-size: ms(0); line-height: vr(ms(0),1); margin-top: vr(ms(0),1); margin-bottom: vr(ms(0),1); }
+.h4 { font-size: ms(0); line-height: vr(ms(0),1); margin-top: vr(ms(0),1); margin-bottom: vr(ms(0),1); }
+
+.paragraph,
+.ordered-list,
+.unordered-list,
+.list-item,
+.preformatted {
+  font-size: ms(0); line-height: vr(ms(0));
+}
+.paragraph,
+.ordered-list,
+.unordered-list {
+  @extend .serif;
+}
+
+.code {
+  font-family: $mono;
+  font-size: ms(0);
+  line-height: vr(ms(-1));
+}
+
+.paragraph {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+// Reset some elements
+
+p, ul, ol, pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+// Extend classes
+
+html {
+  //font: $base-font-size/$base-line-height;
+  //background-image: url(http://basehold.it/i/#{16 * strip-units($base-line-height)}/ff0000); /* [3] */
+}
+
+h1 { @extend .h1; }
+h2 { @extend .h3; }
+h3 { @extend .h4; }
+
+p {
+  @extend .paragraph;
+}
+
+code {
+  @extend .code;
+}
+
+pre {
+  @extend .preformatted;
+  margin-top: vr(ms(0),1); margin-bottom: vr(ms(0),1);
+}
+
+ul,
+ol { @extend .ordered-list; }
+ul>li,
+ol>li { @extend .list-item; }
+li pre {
+  margin-top: vr(ms(0),0.5);
+  margin-bottom: vr(ms(0),0.5);
+}
+
+.run-in {
+  font-variant: small-caps;
+  font-weight: bold;
+  text-transform: lowercase;
+  letter-spacing: 0.05em;
+}

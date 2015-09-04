@@ -333,250 +333,117 @@ table {
 td, th {
   padding: 0; }
 
+/*! vertical-rhythmic 2.0.1 (https://github.com/pyrsmk/vertical-rhythmic) */
+/*
+	number $vr-ratio
+	number $vr-root-px
+*/
+/*
+	Establish baseline
+
+	Parameters
+		number $font-size
+		number $line-height
+*/
+/*
+	Return a rhythm
+
+	Parameters
+		number $font-size
+		number $factor
+
+	Return
+		number
+*/
+/*
+	Convert REM value to PX
+
+	Parameters
+		number $value
+
+	Return
+		number
+*/
+body {
+  font-size: 1.25rem;
+  line-height: 2; }
+
+.serif, .paragraph, p, .ordered-list, ul, ol, .unordered-list {
+  font-family: 'chaparral-pro', serif; }
+
+.sans-serif, .h1, h1, .h2, .h3, h2, .h4, h3, .h5, .h6 {
+  font-family: 'sofia-pro', sans-serif; }
+
+.h1, h1 {
+  font-size: 2.45rem;
+  line-height: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.h2 {
+  font-size: 1.75rem;
+  line-height: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.h3, h2 {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.h4, h3 {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.paragraph, p, .ordered-list, ul, ol, .unordered-list, .list-item, ul > li, ol > li, .preformatted, pre {
+  font-size: 1.25rem;
+  line-height: 2rem; }
+
+.code, code {
+  font-family: 'inconsolata', mono;
+  font-size: 1.25rem;
+  line-height: 1.42857rem; }
+
+.paragraph, p {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+p, ul, ol, pre {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+pre {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+li pre {
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
+.run-in {
+  font-variant: small-caps;
+  font-weight: bold;
+  text-transform: lowercase;
+  letter-spacing: 0.05em; }
+
 .site-header, .site-footer {
   display: none; }
 
-html {
-  font-family: 'chaparral-pro', serif;
-  font-weight: 400;
-  color: #222;
-  font-size: 16px;
-  line-height: 1.75em; }
-  @media (min-width: 600px) {
-    html {
-      font-size: calc( 16px + (20 - 16) * ((100vw - 600px) / (800 - 600))); } }
-  @media (min-width: 800px) {
-    html {
-      font-size: 20px; } }
-
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
-  margin: 0;
-  padding: 0; }
-
-p, blockquote, pre, address, dl, ol, ul, table {
-  margin-bottom: 1.75em; }
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'sofia-pro', sans-serif;
-  font-weight: 600;
-  color: #222;
-  clear: both; }
-
-h1 {
-  font-size: 37.13919px;
-  margin-top: 0.9424em;
-  line-height: 1.13088em;
-  margin-bottom: 0.18848em; }
-  @media (min-width: 600px) {
-    h1 {
-      font-size: calc( 37.13919px + (46.42398 - 37.13919) * ((100vw - 600px) / (800 - 600))); } }
-  @media (min-width: 800px) {
-    h1 {
-      font-size: 46.42398px;
-      margin-top: 0.9424em;
-      line-height: 1.13088em;
-      margin-bottom: 0.18848em; } }
-
-h2 {
-  font-size: 31.38267px;
-  margin-top: 1.11527em;
-  line-height: 1.33832em;
-  margin-bottom: 0.24438em; }
-  @media (min-width: 600px) {
-    h2 {
-      font-size: calc( 31.38267px + (39.22834 - 31.38267) * ((100vw - 600px) / (800 - 600))); } }
-  @media (min-width: 800px) {
-    h2 {
-      font-size: 39.22834px;
-      margin-top: 1.11527em;
-      line-height: 1.33832em;
-      margin-bottom: 0.24011em; } }
-
-h3 {
-  font-size: 26.51841px;
-  margin-top: 1.31984em;
-  line-height: 1.58381em;
-  margin-bottom: 0.29383em; }
-  @media (min-width: 600px) {
-    h3 {
-      font-size: calc( 26.51841px + (33.14801 - 26.51841) * ((100vw - 600px) / (800 - 600))); } }
-  @media (min-width: 800px) {
-    h3 {
-      font-size: 33.14801px;
-      margin-top: 1.31984em;
-      line-height: 1.58381em;
-      margin-bottom: 0.28786em; } }
-
-h4 {
-  font-size: 22.4081px;
-  margin-top: 1.56194em;
-  line-height: 1.87432em;
-  margin-bottom: 0.35421em; }
-  @media (min-width: 600px) {
-    h4 {
-      font-size: calc( 22.4081px + (28.01012 - 22.4081) * ((100vw - 600px) / (800 - 600))); } }
-  @media (min-width: 800px) {
-    h4 {
-      font-size: 28.01012px;
-      margin-top: 1.56194em;
-      line-height: 1.87432em;
-      margin-bottom: 0.34585em; } }
-
-h5 {
-  font-size: 18.93488px;
-  margin-top: 1.84844em;
-  line-height: 2.21813em;
-  margin-bottom: 0.36969em; }
-  @media (min-width: 600px) {
-    h5 {
-      font-size: calc( 18.93488px + (23.66859 - 18.93488) * ((100vw - 600px) / (800 - 600))); } }
-  @media (min-width: 800px) {
-    h5 {
-      font-size: 23.66859px;
-      margin-top: 1.84844em;
-      line-height: 2.21813em;
-      margin-bottom: 0.36969em; } }
-
-h6 {
-  font-size: 16px;
-  margin-top: 2.1875em;
-  line-height: 2.625em;
-  margin-bottom: 0.49219em; }
-  @media (min-width: 600px) {
-    h6 {
-      font-size: calc( 16px + (20 - 16) * ((100vw - 600px) / (800 - 600))); } }
-  @media (min-width: 800px) {
-    h6 {
-      font-size: 20px;
-      margin-top: 2.1875em;
-      line-height: 2.625em;
-      margin-bottom: 0.46484em; } }
-
-blockquote {
-  font-style: italic; }
-  blockquote cite {
-    display: block;
-    font-style: normal; }
-
-pre {
-  padding: 0.875em;
-  margin-bottom: 1.75em; }
-  pre code {
-    padding: 0; }
-
-code {
-  font-family: 'Courier New', 'Courier', 'Lucida Sans Typewriter', 'Lucida Typewriter', 'monospace';
-  padding: 0.0875em 0.2625em;
-  line-height: 0; }
-
-big, small, sub, sup {
-  line-height: 0; }
-
-abbr, acronym {
-  border-bottom: 1px dotted currentColor;
-  cursor: help; }
-
-address {
-  font-style: normal; }
-
-dt {
-  color: #222;
-  font-weight: bold; }
-
-ul {
-  padding-left: 1.1em; }
-
-ol {
-  padding-left: 1.4em; }
-
-fieldset {
-  padding: 0.875em 1.75em 1.75em;
-  border-width: 1px;
-  border-style: solid;
-  max-width: 100%;
-  margin-bottom: 1.8375em; }
-  @media (min-width: 800px) {
-    fieldset {
-      margin-bottom: 2.07812em; } }
-  fieldset button, fieldset input[type="submit"] {
-    margin-bottom: 0; }
-
-legend {
-  color: #222;
-  font-weight: bold; }
-
-input[type="text"], input[type="email"], input[type="password"], textarea {
-  display: block;
-  max-width: 100%;
-  padding: 0.4375em;
-  font-size: 16px;
-  margin-bottom: 1.18125em; }
-  @media (min-width: 600px) {
-    input[type="text"], input[type="email"], input[type="password"], textarea {
-      font-size: calc( 16px + (20 - 16) * ((100vw - 600px) / (800 - 600))); } }
-  @media (min-width: 800px) {
-    input[type="text"], input[type="email"], input[type="password"], textarea {
-      font-size: 20px;
-      margin-bottom: 0.51406em; } }
-
-input[type="submit"], button {
-  display: block;
-  cursor: pointer;
-  font-size: 16px;
-  padding: 0.4375em 1.75em;
-  margin-bottom: 1.18125em; }
-  @media (min-width: 600px) {
-    input[type="submit"], button {
-      font-size: calc( 16px + (20 - 16) * ((100vw - 600px) / (800 - 600))); } }
-  @media (min-width: 800px) {
-    input[type="submit"], button {
-      font-size: 20px;
-      margin-bottom: 1.3125em; } }
-
-label {
-  display: block;
-  padding-bottom: 0.21875em;
-  margin-bottom: -0.21875em; }
-
-table {
-  width: 100%;
-  border-spacing: 0;
-  border-collapse: collapse;
-  margin-bottom: 2.1875em; }
-  @media (min-width: 800px) {
-    table {
-      margin-bottom: 2.0125em; } }
-
-th {
-  text-align: left;
-  color: #222;
-  padding: 0.21875em 0.875em; }
-  @media (min-width: 800px) {
-    th {
-      padding: 0.4375em 0.875em; } }
-
-td {
-  padding: 0.875em;
-  padding: 0.21875em 0.875em; }
-  @media (min-width: 800px) {
-    td {
-      padding: 0.4375em 0.875em; } }
-
 .post {
-  margin: 3.5em 5em; }
-  .post p {
-    margin-bottom: 0; }
-  .post p + p {
-    text-indent: 2em; }
+  margin: 4rem 5rem; }
 
 .post-header {
-  margin-bottom: 1.75em; }
+  margin-bottom: 2rem; }
 
-.post-meta {
-  font-style: italic; }
-
+.post-content h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem; }
 .post-content p {
+  margin-top: 0;
+  margin-bottom: 0;
   max-width: 40em; }
-
-code {
-  font-family: 'inconsolata', mono; }
+.post-content p + p {
+  text-indent: 1.5em; }
