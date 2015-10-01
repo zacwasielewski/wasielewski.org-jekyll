@@ -8,7 +8,23 @@
 // Body:    chaparral-pro
 // Mono:    inconsolata
 
+$sans-serif: 'sofia-pro', sans-serif;
+$serif:
+  'chaparral-pro', serif;
+$mono: 'inconsolata', mono;
 
+$base-font-size:   1.25rem; // 1 rem
+$base-line-height: 2;
+
+$ms-base:  $base-font-size;
+$ms-ratio: 1.4;
+
+$breakpoints: (
+  small: 24em,
+  medium: 46.8em,
+  large: 50em,
+  xl: 73em
+);
 
 //$light: 300;
 //$normal: 400;

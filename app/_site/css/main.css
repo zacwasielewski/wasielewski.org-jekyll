@@ -366,7 +366,8 @@ td, th {
 */
 body {
   font-size: 1.25rem;
-  line-height: 2; }
+  line-height: 2;
+  font-weight: 400; }
 
 .serif, .paragraph, p, .ordered-list, ul, ol, .unordered-list {
   font-family: 'chaparral-pro', serif; }
@@ -433,7 +434,17 @@ li pre {
   display: none; }
 
 .post {
-  margin: 4rem 5rem; }
+  margin: 2rem 1em; }
+
+@media  (min-width: 24em) {
+  .post {
+    margin: 2rem 2em; } }
+
+@media  (min-width: 46.8em) {
+  .post {
+    margin: 4rem 5rem; }
+  .post-content p, .post-content ul, .post-content ol {
+    max-width: 40em; } }
 
 .post-header {
   margin-bottom: 2rem; }
@@ -443,7 +454,6 @@ li pre {
   margin-bottom: 1rem; }
 .post-content p {
   margin-top: 0;
-  margin-bottom: 0;
-  max-width: 40em; }
+  margin-bottom: 0; }
 .post-content p + p {
   text-indent: 1.5em; }

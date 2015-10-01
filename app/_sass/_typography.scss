@@ -1,15 +1,7 @@
-$sans-serif: 'sofia-pro', sans-serif;
-$serif: 'chaparral-pro', serif;
-$mono: 'inconsolata', mono;
-
-$base-font-size:   1.25rem; // 1 rem
-$base-line-height: 2;
-
-$ms-base:  $base-font-size;
-$ms-ratio: 1.4;
-
 body{
   @include vr-baseline($base-font-size, $base-line-height);
+  font-weight: 400;
+  //-webkit-font-smoothing: antialiased;
 }
 
 // Define some styles

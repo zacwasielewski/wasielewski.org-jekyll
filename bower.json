@@ -13,14 +13,11 @@
     "test",
     "tests"
   ],
-  "dependencies": {
+  "devDependencies": {
     "compass-breakpoint": "~2.6.1",
     "modular-scale": "~2.1.1",
     "normalize-scss": "~3.0.3",
-    "sassline": "git@github.com:zacwasielewski/sassline.git#~2.1.1",
-    "susy": "~2.2.6"
-  },
-  "devDependencies": {
+    "susy": "~2.2.6",
     "typesettings": "~2.4.0",
     "typographic": "~2.9.3",
     "vertical-rhythmic": "~2.0.1"

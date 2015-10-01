@@ -1,3 +1,20 @@
 .post {
-  margin: vr(ms(0),2) 5rem;
+  margin: vr(ms(0),1) 1em;
+}
+
+@include breakpoint(map-get($breakpoints, small)) {
+  .post {
+    margin: vr(ms(0),1) 2em;
+  }
+}
+
+@include breakpoint(map-get($breakpoints, medium)) {
+  .post {
+    margin: vr(ms(0),2) 5rem;
+  }
+  .post-content {
+    p, ul, ol {
+      max-width: 40em;
+    }
+  }
 }
