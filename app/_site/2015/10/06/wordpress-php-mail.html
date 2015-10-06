@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Zac Wasielewski</title>
-  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-">
+  <title>Forcing WordPress to send email on (some) shared web hosts</title>
+  <meta name="description" content="A common problem with WordPress on shared hosts is PHP’s built-in mail() not working. There are a few possible reasons for this, and a popular workaround is ...">
 
   <link rel="stylesheet" href="/css/main.min.css">
-  <link rel="canonical" href="http://wasielewski.org/">
+  <link rel="canonical" href="http://wasielewski.org/2015/10/06/wordpress-php-mail.html">
   <link rel="alternate" type="application/rss+xml" title="Zac Wasielewski" href="http://wasielewski.org/feed.xml" />
 
   <script src="https://use.typekit.net/flq6drc.js"></script>
@@ -60,127 +59,46 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <div class="post">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title">Forcing WordPress to send email on (some) shared web hosts</h1>
+    <p class="post-meta">Oct 6, 2015</p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Oct 6, 2015</span>
+  <article class="post-content">
+    <p>A common problem with WordPress on shared hosts is PHP’s built-in <code>mail()</code> not working. There are a few possible reasons for this, and a popular workaround is to <a href="https://wordpress.org/plugins/wp-mail-smtp/">enable SMTP mail instead</a>. That method requires an account with a valid SMTP host, which isn’t always an option (especially for clients).</p>
 
-        <h2>
-          <a class="post-link" href="/2015/10/06/wordpress-php-mail.html">Forcing WordPress to send email on (some) shared web hosts</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jul 17, 2015</span>
+<p>But depending on your host, <code>mail()</code> may actually be enabled, and simply require a bit of extra love. Rackspace Cloud Sites, for example, will let you use <code>mail()</code> as long as you <a href="http://www.rackspace.com/knowledge_center/article/test-php-mail-functionality">include a valid <code>Sender (Return-Path)</code> header</a>.</p>
 
-        <h2>
-          <a class="post-link" href="/uncategorized/2015/07/17/responsive-shopify-product-images.html">Responsive Shopify product images</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 20, 2015</span>
+<p>To test your web host’s support, upload this code snippet to your site and access it in a browser:</p>
 
-        <h2>
-          <a class="post-link" href="/uncategorized/2015/02/20/links.html">Links</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 26, 2015</span>
+<pre><code>&lt;?php
+$to = 'nobody@example.com'; // &lt;- Change this to your email address
+$subject = 'Test email using PHP';
+$message = 'This is a test email message';
+$headers = 'From: webmaster@example.com' . "\r\n"
+    . 'Reply-To: webmaster@example.com' . "\r\n"
+    . 'X-Mailer: PHP/' . phpversion();
+$sent = mail($to, $subject, $message, $headers, '-fwebmaster@example.com');
+if ($sent) {
+  echo 'SUCCESS: Mail was sent!';
+} else {
+  echo 'FAILURE: Mail was not sent.'
+}
+</code></pre>
 
-        <h2>
-          <a class="post-link" href="/links/2015/01/26/links.html">Links</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 15, 2015</span>
+<p>If you received an email, then you’re in good shape. To enable the same in WordPress, it’s simple:</p>
 
-        <h2>
-          <a class="post-link" href="/links/2015/01/15/links.html">Links</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 14, 2015</span>
+<ol>
+  <li>Install the <a href="https://wordpress.org/plugins/wp-mail-options/">WP Mail Options</a> plugin.</li>
+  <li>Navigate to Admin → Settings → WP Mail Options</li>
+  <li>Fill in the <strong>From</strong>, <strong>From Name</strong>, and <strong>Sender (Return-Path)</strong> fields (<em>From and Sender should usually be the same email address.</em>).</li>
+</ol>
 
-        <h2>
-          <a class="post-link" href="/uncategorized/2015/01/14/failures-successes-and-goals.html">Failures, Successes, and Goals</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jul 18, 2014</span>
+<p>Enjoy your new mail-mailing capabilities!</p>
 
-        <h2>
-          <a class="post-link" href="/uncategorized/2014/07/18/what-problems-to-solve.html">What Problems to Solve</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 14, 2014</span>
-
-        <h2>
-          <a class="post-link" href="/uncategorized/2014/05/14/which-conf-files-is-apache-using.html">Which .conf file(s) is Apache using?</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 28, 2014</span>
-
-        <h2>
-          <a class="post-link" href="/uncategorized/2014/01/28/wordpress-multisite-proxy-configuration.html">WordPress multisite proxy configuration</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Oct 7, 2013</span>
-
-        <h2>
-          <a class="post-link" href="/uncategorized/2013/10/07/relationships-are-everything.html">Relationships are everything</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 23, 2013</span>
-
-        <h2>
-          <a class="post-link" href="/uncategorized/2013/09/23/frequent-failure-is-expected.html">Frequent Failure Is Expected</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 7, 2013</span>
-
-        <h2>
-          <a class="post-link" href="/uncategorized/2013/09/07/why-trust-climate-models.html">Why Trust Climate Models</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Aug 15, 2013</span>
-
-        <h2>
-          <a class="post-link" href="/uncategorized/2013/08/15/theme-details.html">Theme Details</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Aug 14, 2013</span>
-
-        <h2>
-          <a class="post-link" href="/uncategorized/2013/08/14/on-contributing.html">On Contributing</a>
-        </h2>
-      </li>
-    
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+  </article>
 
 </div>
 

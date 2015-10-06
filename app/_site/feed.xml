@@ -6,9 +6,49 @@
 </description>
     <link>http://wasielewski.org/</link>
     <atom:link href="http://wasielewski.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Oct 2015 15:33:10 -0400</pubDate>
-    <lastBuildDate>Thu, 01 Oct 2015 15:33:10 -0400</lastBuildDate>
+    <pubDate>Tue, 06 Oct 2015 12:16:50 -0400</pubDate>
+    <lastBuildDate>Tue, 06 Oct 2015 12:16:50 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Forcing WordPress to send email on (some) shared web hosts</title>
+        <description>&lt;p&gt;A common problem with WordPress on shared hosts is PHP’s built-in &lt;code&gt;mail()&lt;/code&gt; not working. There are a few possible reasons for this, and a popular workaround is to &lt;a href=&quot;https://wordpress.org/plugins/wp-mail-smtp/&quot;&gt;enable SMTP mail instead&lt;/a&gt;. That method requires an account with a valid SMTP host, which isn’t always an option (especially for clients).&lt;/p&gt;
+
+&lt;p&gt;But depending on your host, &lt;code&gt;mail()&lt;/code&gt; may actually be enabled, and simply require a bit of extra love. Rackspace Cloud Sites, for example, will let you use &lt;code&gt;mail()&lt;/code&gt; as long as you &lt;a href=&quot;http://www.rackspace.com/knowledge_center/article/test-php-mail-functionality&quot;&gt;include a valid &lt;code&gt;Sender (Return-Path)&lt;/code&gt; header&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To test your web host’s support, upload this code snippet to your site and access it in a browser:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;?php
+$to = &#39;nobody@example.com&#39;; // &amp;lt;- Change this to your email address
+$subject = &#39;Test email using PHP&#39;;
+$message = &#39;This is a test email message&#39;;
+$headers = &#39;From: webmaster@example.com&#39; . &quot;\r\n&quot;
+    . &#39;Reply-To: webmaster@example.com&#39; . &quot;\r\n&quot;
+    . &#39;X-Mailer: PHP/&#39; . phpversion();
+$sent = mail($to, $subject, $message, $headers, &#39;-fwebmaster@example.com&#39;);
+if ($sent) {
+  echo &#39;SUCCESS: Mail was sent!&#39;;
+} else {
+  echo &#39;FAILURE: Mail was not sent.&#39;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you received an email, then you’re in good shape. To enable the same in WordPress, it’s simple:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Install the &lt;a href=&quot;https://wordpress.org/plugins/wp-mail-options/&quot;&gt;WP Mail Options&lt;/a&gt; plugin.&lt;/li&gt;
+  &lt;li&gt;Navigate to Admin → Settings → WP Mail Options&lt;/li&gt;
+  &lt;li&gt;Fill in the &lt;strong&gt;From&lt;/strong&gt;, &lt;strong&gt;From Name&lt;/strong&gt;, and &lt;strong&gt;Sender (Return-Path)&lt;/strong&gt; fields (&lt;em&gt;From and Sender should usually be the same email address.&lt;/em&gt;).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Enjoy your new mail-mailing capabilities!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 06 Oct 2015 12:15:00 -0500</pubDate>
+        <link>http://wasielewski.org/2015/10/06/wordpress-php-mail.html</link>
+        <guid isPermaLink="true">http://wasielewski.org/2015/10/06/wordpress-php-mail.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Responsive Shopify product images</title>
@@ -351,23 +391,6 @@ RewriteRule . index.php [L]
         <pubDate>Mon, 07 Oct 2013 10:14:39 -0400</pubDate>
         <link>http://wasielewski.org/uncategorized/2013/10/07/relationships-are-everything.html</link>
         <guid isPermaLink="true">http://wasielewski.org/uncategorized/2013/10/07/relationships-are-everything.html</guid>
-        
-        
-        <category>uncategorized</category>
-        
-      </item>
-    
-      <item>
-        <title>Frequent Failure Is Expected</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;I think as experienced game developers / engineers / artists / makers, we don’t realize how we’ve developed strong senses of “vision” — the ability to visualize and maintain this thing in our head, and gradually work to realize that thing into existence despite countless obstacles. Frequent failure is expected! But this kind of emotional intelligence, to be patient with yourself and your work, takes time to cultivate. &lt;em&gt;People have trouble grasping this if they are new to making things, and maybe it’s our mission to help them own their constant failures.&lt;/em&gt;&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— Robert Yang in &lt;a href=&quot;http://www.blog.radiator.debacle.us/2013/09/teaching-struggle.html&quot;&gt;Teaching struggle.&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Mon, 23 Sep 2013 14:45:58 -0400</pubDate>
-        <link>http://wasielewski.org/uncategorized/2013/09/23/frequent-failure-is-expected.html</link>
-        <guid isPermaLink="true">http://wasielewski.org/uncategorized/2013/09/23/frequent-failure-is-expected.html</guid>
         
         
         <category>uncategorized</category>
