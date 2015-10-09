@@ -6,8 +6,8 @@
 </description>
     <link>http://wasielewski.org/</link>
     <atom:link href="http://wasielewski.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 06 Oct 2015 12:16:50 -0400</pubDate>
-    <lastBuildDate>Tue, 06 Oct 2015 12:16:50 -0400</lastBuildDate>
+    <pubDate>Fri, 09 Oct 2015 16:37:37 -0400</pubDate>
+    <lastBuildDate>Fri, 09 Oct 2015 16:37:37 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -166,6 +166,25 @@ if ($sent) {
         <pubDate>Mon, 26 Jan 2015 14:35:11 -0500</pubDate>
         <link>http://wasielewski.org/links/2015/01/26/links.html</link>
         <guid isPermaLink="true">http://wasielewski.org/links/2015/01/26/links.html</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>Links</title>
+        <description>I SUBSCRIBE TO A HANDFUL OF BLOGS THAT REGULARLY PUBLISH INTERESTING OR USEFUL LINKS. THOSE TEND TO BE MY FAVORITE KIND OF POST, SO I&#39;M GOING TO TRY SHARING THE WEALTH AND PUBLISH SOME OF MY OWN. ENJOY!
+
+- [RAILSBOX](HTTPS://RAILSBOX.IO) — AN ONLINE GUI TO BUILD VIRTUAL MACHINES FOR WEB DEVELOPMENT. SIMILAR TO [PUPHPET](HTTPS://PUPHPET.COM/) AND [PROTOBOX](HTTP://GETPROTOBOX.COM/), BUT USES ANSIBLE FOR PROVISIONING AND SUPPORTS UNICORN/PASSENGER OUT OF THE BOX. (IF I HAVE SOME SPARE TIME, I&#39;D LIKE TO CREATE A PULL REQUEST FOR DEPLOYING TO DIGITAL OCEAN.)
+- [AUTO-HIDE STICKY HEADER](HTTP://OSVALDAS.INFO/AUTO-HIDE-STICKY-HEADER) — THIS USEFUL AND SUBTLE NAVIGATION UI PATTERN IS EVERYWHERE LATELY. HERE OSVALDAS VALUTIS PROVIDES A CANONICAL EXAMPLE AND EXPLANATION, INCLUDING A FEW VARIATIONS.
+- [LORRAINE LOOTS ON INSTAGRAM](HTTP://INSTAGRAM.COM/LORRAINELOOTS) — LORRAINE CREATES TINY, AMAZING DRAWING AND PAINTINGS. GET LOST IN HER INSTAGRAM FEED!
+- [SKYLINE](HTTP://SKYLINE.IS/) — &quot;A STARTING POINT FOR BUILDING CUSTOM CSS FRAMEWORKS.&quot; THIS IS THE TYPE OF GROUNDWORK THAT I WISH BOOTSTRAP AND FOUNDATION WERE BUILT UPON. ITS MODULAR ORGANIZATION IS WELL-CONSIDERED, AND THE USE OF SCSS AND BEM NOTATION APPEAL TO ME.
+- [ARTOO](HTTP://ARTOO.IO/) — FRAMEWORK FOR PROGRAMMING ROBOTS IN RUBY. THERE&#39;S AN [ARDUINO LIBRARY](HTTP://ARTOO.IO/DOCUMENTATION/PLATFORMS/ARDUINO/), WHICH SEEMS LIKE A FUN, NATIVE-FEELING ALTERNATIVE TO PROCESSING.
+</description>
+        <pubDate>Thu, 15 Jan 2015 15:25:10 -0500</pubDate>
+        <link>http://wasielewski.org/links/2015/01/15/test.html</link>
+        <guid isPermaLink="true">http://wasielewski.org/links/2015/01/15/test.html</guid>
         
         
         <category>links</category>
@@ -374,23 +393,6 @@ RewriteRule . index.php [L]
         <pubDate>Tue, 28 Jan 2014 15:04:47 -0500</pubDate>
         <link>http://wasielewski.org/uncategorized/2014/01/28/wordpress-multisite-proxy-configuration.html</link>
         <guid isPermaLink="true">http://wasielewski.org/uncategorized/2014/01/28/wordpress-multisite-proxy-configuration.html</guid>
-        
-        
-        <category>uncategorized</category>
-        
-      </item>
-    
-      <item>
-        <title>Relationships are everything</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;Relationships are everything. Getting what we want, having things our way, having control, being right … these things matter nothing compared to relationships. Imagine being in your death bed at the age of 80 … will your sense of being right and in control comfort you when you have no good relationships, no one who has loved you?&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;— Leo Babuta in &lt;a href=&quot;http://zenhabits.net/aol/&quot;&gt;My Pursuit of the Art of Living&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Mon, 07 Oct 2013 10:14:39 -0400</pubDate>
-        <link>http://wasielewski.org/uncategorized/2013/10/07/relationships-are-everything.html</link>
-        <guid isPermaLink="true">http://wasielewski.org/uncategorized/2013/10/07/relationships-are-everything.html</guid>
         
         
         <category>uncategorized</category>

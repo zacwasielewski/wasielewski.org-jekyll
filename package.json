@@ -30,5 +30,8 @@
     "gulp-shell": "^0.4.3",
     "gulp-uglify": "^1.2.0",
     "gulp": "^3.8.11"
+  },
+  "dependencies": {
+    "typeset": "^0.1.6"
   }
 }

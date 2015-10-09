@@ -12,3 +12,9 @@ github_username:  zacwasielewski
 
 # Build settings
 markdown: kramdown
+
+source:      src
+destination: dist
+
+#gems:
+#  - jekyll-typeset

@@ -12,7 +12,7 @@ var sass = require('gulp-sass');
 var browserSync = require('browser-sync');
 var shell = require('gulp-shell');
 
-var appDir = './app/'
+var appDir = './src/'
 
 gulp.task('browser-sync', function() {
   browserSync({
@@ -67,7 +67,8 @@ gulp.task('scripts', function(){
 gulp.task('jekyll', function () {
   return gulp.src(appDir + '_config.yml')
     .pipe(shell([
-      'jekyll build --config <%= file.path %> --source ' + appDir + ' --destination ' + appDir + '_site/'
+      //'jekyll build --config <%= file.path %> --source ' + appDir + ' --destination ' + appDir + '_site/'
+      'jekyll build --config <%= file.path %>'
     ]))
     .pipe(browserSync.reload({stream: true}));
 });
