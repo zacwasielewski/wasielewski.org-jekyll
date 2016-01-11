@@ -4,11 +4,30 @@
     <title>Zac Wasielewski</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://wasielewski.org/</link>
-    <atom:link href="http://wasielewski.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 09 Oct 2015 16:37:37 -0400</pubDate>
-    <lastBuildDate>Fri, 09 Oct 2015 16:37:37 -0400</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <link>http://wasielewski.org/
+    <atom:link href="http://wasielewski.org/feed.xml" rel="self" type="application/rss+xml">
+    <pubdate>Sat, 10 Oct 2015 09:30:58 -0400</pubdate>
+    <lastbuilddate>Sat, 10 Oct 2015 09:30:58 -0400</lastbuilddate>
+    <generator>Jekyll v3.0.0.pre.beta9</generator>
+    
+      <item>
+        <title>Typeset test</title>
+        <description>&lt;p&gt;Yarn Sigurðardóttir spoke to NATO from Iceland yesterday: “Light of my life, fire of my florins — my sin, my soul. The tip of the tongue taking a trip to 118° 19’ 43.5”.”&lt;/p&gt;
+
+&lt;p&gt;”She’s faster than a 120’ 4” whale.” &lt;em&gt;Piña co­ladas&lt;/em&gt; were widely consumed in Götterdämmerung from 1880–1912. For the low price of $20 / year from Ex­hi­bits A–E… Then the &lt;em&gt;duplex&lt;/em&gt; came forward. “Thrice the tower, he mounted the round unrest, ‘awaking’ HTML. He can print a fixed num­ber of dots in a square inch (for in­stance, 600 × 600).”&lt;/p&gt;
+
+&lt;div class=&quot;ignore&quot;&gt;
+  Yarn Sigurðardóttir spoke to NATO from Iceland yesterday: “Light of my life, fire of my florins — my sin, my soul. The tip of the tongue taking a trip to 118° 19’ 43.5”.”
+
+  ”She’s faster than a 120’ 4” whale.” *Piña co­ladas* were widely consumed in Götterdämmerung from 1880–1912. For the low price of $20 / year from Ex­hi­bits A–E… Then the &lt;em&gt;duplex&lt;/em&gt; came forward. “Thrice the tower, he mounted the round unrest, ‘awaking’ HTML. He can print a fixed num­ber of dots in a square inch (for in­stance, 600 × 600).”
+&lt;/div&gt;
+</description>
+        <pubdate>Fri, 09 Oct 2015 16:25:10 -0400</pubdate>
+        <link>http://wasielewski.org/2015/10/09/test.html
+        <guid ispermalink="true">http://wasielewski.org/2015/10/09/test.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Forcing WordPress to send email on (some) shared web hosts</title>
@@ -43,9 +62,9 @@ if ($sent) {
 
 &lt;p&gt;Enjoy your new mail-mailing capabilities!&lt;/p&gt;
 </description>
-        <pubDate>Tue, 06 Oct 2015 12:15:00 -0500</pubDate>
-        <link>http://wasielewski.org/2015/10/06/wordpress-php-mail.html</link>
-        <guid isPermaLink="true">http://wasielewski.org/2015/10/06/wordpress-php-mail.html</guid>
+        <pubdate>Tue, 06 Oct 2015 13:15:00 -0400</pubdate>
+        <link>http://wasielewski.org/2015/10/06/wordpress-php-mail.html
+        <guid ispermalink="true">http://wasielewski.org/2015/10/06/wordpress-php-mail.html</guid>
         
         
       </item>
@@ -117,9 +136,9 @@ if ($sent) {
 
 &lt;p&gt;I’m &lt;a href=&quot;https://twitter.com/xac&quot;&gt;@xac&lt;/a&gt; on Twitter.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 17 Jul 2015 02:13:49 -0400</pubDate>
-        <link>http://wasielewski.org/uncategorized/2015/07/17/responsive-shopify-product-images.html</link>
-        <guid isPermaLink="true">http://wasielewski.org/uncategorized/2015/07/17/responsive-shopify-product-images.html</guid>
+        <pubdate>Fri, 17 Jul 2015 02:13:49 -0400</pubdate>
+        <link>http://wasielewski.org/uncategorized/2015/07/17/responsive-shopify-product-images.html
+        <guid ispermalink="true">http://wasielewski.org/uncategorized/2015/07/17/responsive-shopify-product-images.html</guid>
         
         <category>Shopify</category>
         
@@ -130,7 +149,7 @@ if ($sent) {
         <category>Web Development</category>
         
         
-        <category>uncategorized</category>
+        <category>Uncategorized</category>
         
       </item>
     
@@ -144,12 +163,12 @@ if ($sent) {
   &lt;li&gt;“&lt;a href=&quot;https://the-pastry-box-project.net/scott-jehl/2014-october-9&quot;&gt;Under-promise and over-deliver&lt;/a&gt;” is one of the most difficult and important principles in life. I’m still struggling to improve at this.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Fri, 20 Feb 2015 15:35:30 -0500</pubDate>
-        <link>http://wasielewski.org/uncategorized/2015/02/20/links.html</link>
-        <guid isPermaLink="true">http://wasielewski.org/uncategorized/2015/02/20/links.html</guid>
+        <pubdate>Fri, 20 Feb 2015 15:35:30 -0500</pubdate>
+        <link>http://wasielewski.org/uncategorized/2015/02/20/links.html
+        <guid ispermalink="true">http://wasielewski.org/uncategorized/2015/02/20/links.html</guid>
         
         
-        <category>uncategorized</category>
+        <category>Uncategorized</category>
         
       </item>
     
@@ -163,31 +182,12 @@ if ($sent) {
   &lt;li&gt;&lt;a href=&quot;http://aerialwallpapers.tumblr.com/&quot;&gt;Aerial Wallpapers&lt;/a&gt; – iPhone wallpapers created from aerial satellite photos. Much more beautiful than they sound.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Mon, 26 Jan 2015 14:35:11 -0500</pubDate>
-        <link>http://wasielewski.org/links/2015/01/26/links.html</link>
-        <guid isPermaLink="true">http://wasielewski.org/links/2015/01/26/links.html</guid>
+        <pubdate>Mon, 26 Jan 2015 14:35:11 -0500</pubdate>
+        <link>http://wasielewski.org/links/2015/01/26/links.html
+        <guid ispermalink="true">http://wasielewski.org/links/2015/01/26/links.html</guid>
         
         
-        <category>links</category>
-        
-      </item>
-    
-      <item>
-        <title>Links</title>
-        <description>I SUBSCRIBE TO A HANDFUL OF BLOGS THAT REGULARLY PUBLISH INTERESTING OR USEFUL LINKS. THOSE TEND TO BE MY FAVORITE KIND OF POST, SO I&#39;M GOING TO TRY SHARING THE WEALTH AND PUBLISH SOME OF MY OWN. ENJOY!
-
-- [RAILSBOX](HTTPS://RAILSBOX.IO) — AN ONLINE GUI TO BUILD VIRTUAL MACHINES FOR WEB DEVELOPMENT. SIMILAR TO [PUPHPET](HTTPS://PUPHPET.COM/) AND [PROTOBOX](HTTP://GETPROTOBOX.COM/), BUT USES ANSIBLE FOR PROVISIONING AND SUPPORTS UNICORN/PASSENGER OUT OF THE BOX. (IF I HAVE SOME SPARE TIME, I&#39;D LIKE TO CREATE A PULL REQUEST FOR DEPLOYING TO DIGITAL OCEAN.)
-- [AUTO-HIDE STICKY HEADER](HTTP://OSVALDAS.INFO/AUTO-HIDE-STICKY-HEADER) — THIS USEFUL AND SUBTLE NAVIGATION UI PATTERN IS EVERYWHERE LATELY. HERE OSVALDAS VALUTIS PROVIDES A CANONICAL EXAMPLE AND EXPLANATION, INCLUDING A FEW VARIATIONS.
-- [LORRAINE LOOTS ON INSTAGRAM](HTTP://INSTAGRAM.COM/LORRAINELOOTS) — LORRAINE CREATES TINY, AMAZING DRAWING AND PAINTINGS. GET LOST IN HER INSTAGRAM FEED!
-- [SKYLINE](HTTP://SKYLINE.IS/) — &quot;A STARTING POINT FOR BUILDING CUSTOM CSS FRAMEWORKS.&quot; THIS IS THE TYPE OF GROUNDWORK THAT I WISH BOOTSTRAP AND FOUNDATION WERE BUILT UPON. ITS MODULAR ORGANIZATION IS WELL-CONSIDERED, AND THE USE OF SCSS AND BEM NOTATION APPEAL TO ME.
-- [ARTOO](HTTP://ARTOO.IO/) — FRAMEWORK FOR PROGRAMMING ROBOTS IN RUBY. THERE&#39;S AN [ARDUINO LIBRARY](HTTP://ARTOO.IO/DOCUMENTATION/PLATFORMS/ARDUINO/), WHICH SEEMS LIKE A FUN, NATIVE-FEELING ALTERNATIVE TO PROCESSING.
-</description>
-        <pubDate>Thu, 15 Jan 2015 15:25:10 -0500</pubDate>
-        <link>http://wasielewski.org/links/2015/01/15/test.html</link>
-        <guid isPermaLink="true">http://wasielewski.org/links/2015/01/15/test.html</guid>
-        
-        
-        <category>links</category>
+        <category>Links</category>
         
       </item>
     
@@ -203,12 +203,12 @@ if ($sent) {
   &lt;li&gt;&lt;a href=&quot;http://artoo.io/&quot;&gt;Artoo&lt;/a&gt; — Framework for programming robots in Ruby. There’s an &lt;a href=&quot;http://artoo.io/documentation/platforms/arduino/&quot;&gt;Arduino library&lt;/a&gt;, which seems like a fun, native-feeling alternative to Processing.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Thu, 15 Jan 2015 15:25:10 -0500</pubDate>
-        <link>http://wasielewski.org/links/2015/01/15/links.html</link>
-        <guid isPermaLink="true">http://wasielewski.org/links/2015/01/15/links.html</guid>
+        <pubdate>Thu, 15 Jan 2015 15:25:10 -0500</pubdate>
+        <link>http://wasielewski.org/links/2015/01/15/links.html
+        <guid ispermalink="true">http://wasielewski.org/links/2015/01/15/links.html</guid>
         
         
-        <category>links</category>
+        <category>Links</category>
         
       </item>
     
@@ -244,12 +244,12 @@ if ($sent) {
   &lt;li&gt;&lt;strong&gt;Take an extended ski trip.&lt;/strong&gt; Skiing powder is one of my favorite pleasures, and now that Heather has also gotten the bug, we’re thinking about moving West for a couple of months to ski. In future blog posts, I hope to lay out a plan for achieving this goal.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Wed, 14 Jan 2015 17:01:17 -0500</pubDate>
-        <link>http://wasielewski.org/uncategorized/2015/01/14/failures-successes-and-goals.html</link>
-        <guid isPermaLink="true">http://wasielewski.org/uncategorized/2015/01/14/failures-successes-and-goals.html</guid>
+        <pubdate>Wed, 14 Jan 2015 17:01:17 -0500</pubdate>
+        <link>http://wasielewski.org/uncategorized/2015/01/14/failures-successes-and-goals.html
+        <guid ispermalink="true">http://wasielewski.org/uncategorized/2015/01/14/failures-successes-and-goals.html</guid>
         
         
-        <category>uncategorized</category>
+        <category>Uncategorized</category>
         
       </item>
     
@@ -261,12 +261,12 @@ if ($sent) {
   &lt;p&gt;Richard Feynman, &lt;a href=&quot;http://genius.cat-v.org/richard-feynman/writtings/letters/problems&quot;&gt;What Problems to Solve&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
-        <pubDate>Fri, 18 Jul 2014 11:21:04 -0400</pubDate>
-        <link>http://wasielewski.org/uncategorized/2014/07/18/what-problems-to-solve.html</link>
-        <guid isPermaLink="true">http://wasielewski.org/uncategorized/2014/07/18/what-problems-to-solve.html</guid>
+        <pubdate>Fri, 18 Jul 2014 11:21:04 -0400</pubdate>
+        <link>http://wasielewski.org/uncategorized/2014/07/18/what-problems-to-solve.html
+        <guid ispermalink="true">http://wasielewski.org/uncategorized/2014/07/18/what-problems-to-solve.html</guid>
         
         
-        <category>uncategorized</category>
+        <category>Uncategorized</category>
         
       </item>
     
@@ -299,16 +299,16 @@ VirtualHost configuration:
 
 &lt;p&gt;That’s all there is to it — no guesswork necessary.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 14 May 2014 14:22:40 -0400</pubDate>
-        <link>http://wasielewski.org/uncategorized/2014/05/14/which-conf-files-is-apache-using.html</link>
-        <guid isPermaLink="true">http://wasielewski.org/uncategorized/2014/05/14/which-conf-files-is-apache-using.html</guid>
+        <pubdate>Wed, 14 May 2014 14:22:40 -0400</pubdate>
+        <link>http://wasielewski.org/uncategorized/2014/05/14/which-conf-files-is-apache-using.html
+        <guid ispermalink="true">http://wasielewski.org/uncategorized/2014/05/14/which-conf-files-is-apache-using.html</guid>
         
         <category>Apache</category>
         
         <category>sysadmin</category>
         
         
-        <category>uncategorized</category>
+        <category>Uncategorized</category>
         
       </item>
     
@@ -390,14 +390,15 @@ RewriteRule . index.php [L]
 
 &lt;p&gt;And that’s it. This combination of rules delicately nudges your URLs into a format that WordPress and Apache won’t choke on.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 28 Jan 2014 15:04:47 -0500</pubDate>
-        <link>http://wasielewski.org/uncategorized/2014/01/28/wordpress-multisite-proxy-configuration.html</link>
-        <guid isPermaLink="true">http://wasielewski.org/uncategorized/2014/01/28/wordpress-multisite-proxy-configuration.html</guid>
+        <pubdate>Tue, 28 Jan 2014 15:04:47 -0500</pubdate>
+        <link>http://wasielewski.org/uncategorized/2014/01/28/wordpress-multisite-proxy-configuration.html
+        <guid ispermalink="true">http://wasielewski.org/uncategorized/2014/01/28/wordpress-multisite-proxy-configuration.html</guid>
         
         
-        <category>uncategorized</category>
+        <category>Uncategorized</category>
         
       </item>
     
-  </channel>
+  </atom:link></channel>
 </rss>
+

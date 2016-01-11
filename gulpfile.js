@@ -17,7 +17,7 @@ var appDir = './src/'
 gulp.task('browser-sync', function() {
   browserSync({
     server: {
-       baseDir: appDir + "_site/"
+       baseDir: appDir + "/../dist/"
     }
   });
 });

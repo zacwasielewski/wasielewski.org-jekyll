@@ -12,6 +12,9 @@ github_username:  zacwasielewski
 
 # Build settings
 markdown: kramdown
+typeset:
+  ignore: '.ignore'
+  only: '.post-content'
 
 source:      src
 destination: dist
