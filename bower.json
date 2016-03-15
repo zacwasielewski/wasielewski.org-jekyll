@@ -1,0 +1,25 @@
+{
+  "name": "wasielewski.org",
+  "version": "0.1.0",
+  "homepage": "https://github.com/zacwasielewski/wasielewski.org-jekyll",
+  "authors": [
+    "Zac Wasielewski <zac@wasielewski.org>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "compass-breakpoint": "~2.6.1",
+    "modular-scale": "~2.1.1",
+    "normalize-scss": "~3.0.3",
+    "susy": "~2.2.6",
+    "typesettings": "~2.4.0",
+    "typographic": "~2.9.3",
+    "vertical-rhythmic": "~2.0.1"
+  }
+}
