@@ -1,0 +1,19 @@
+---
+layout: post
+status: publish
+published: true
+title: Links
+author: Zac Wasielewski
+author_email: zac@wasielewski.org
+date: '2015-02-20 15:35:30 -0500'
+date_gmt: '2015-02-20 20:35:30 -0500'
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+- [A practical introduction to functional programming](http://maryrosecook.com/blog/post/a-practical-introduction-to-functional-programming) &ndash; The best article I've read about functional programming.
+- [How-to make your iPhone Dimmer than Dim](https://medium.com/@searls/how-to-make-your-iphone-dimmer-than-dim-d20fd3bbbb66) &ndash; Even at its dimmest, the iPhone display is too bright for reading at night in bed. This makes it go even dimmer. (Let's ignore the fact that I shouldn't have my phone in bed in the first place.)
+- [Hungarian paper money](https://www.behance.net/gallery/19414395/Hungarian-paper-money) &ndash; A beautiful "redesign" of the fictional Hungarian euro.
+- [keepachangelog.com](http://keepachangelog.com/) &ndash; Well-considered rules and conventions for change logs. I'll be keeping one for all of my projects from now on.
+- "[Under-promise and over-deliver](https://the-pastry-box-project.net/scott-jehl/2014-october-9)" is one of the most difficult and important principles in life. I'm still struggling to improve at this.

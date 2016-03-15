@@ -1,0 +1,19 @@
+---
+layout: post
+status: publish
+published: true
+title: Links
+author: Zac Wasielewski
+author_email: zac@wasielewski.org
+date: '2015-01-26 14:35:11 -0500'
+date_gmt: '2015-01-26 19:35:11 -0500'
+categories:
+- Links
+tags: []
+comments: []
+---
+- [Parsley](https://github.com/fizx/parsley/wiki) &ndash; Command-line tool to extract structured data from web pages as JSON. Its simple syntax is a superset of CSS3 and XPATH.
+- [Downtown is for People](http://fortune.com/2011/09/18/downtown-is-for-people-fortune-classic-1958/) &ndash;  "<span style="color: #151515;">Rarely before has the citizen had such a chance to reshape the city, and to make it the kind of city that he likes and that others will too." </span>A classic article on urban planning. (Especially relevant now as my city, Utica, seems to in the early stages of a rebirth.)
+- [The Possibility in Blank Spaces](http://www.becomingminimalist.com/blank-spaces/) &ndash; Why it's worth resisting the urge to fill everything.
+- [Business Town! What Value-Creating Winners Do All Day](http://welcometobusinesstown.tumblr.com/) &ndash; What if Richard Scarry grew up in Silicon Valley? The satire isn't particularly original, but the illustrations are wonderful.
+- [Aerial Wallpapers](http://aerialwallpapers.tumblr.com/) &ndash; iPhone wallpapers created from aerial satellite photos. Much more beautiful than they sound.

@@ -1,0 +1,21 @@
+---
+layout: post
+status: publish
+published: true
+title: Links
+author: Zac Wasielewski
+author_email: zac@wasielewski.org
+date: '2015-01-15 15:25:10 -0500'
+date_gmt: '2015-01-15 20:25:10 -0500'
+categories:
+- Links
+tags: []
+comments: []
+---
+I subscribe to a handful of blogs that regularly publish interesting or useful links. Those tend to be my favorite kind of post, so I'm going to try sharing the wealth and publish some of my own. Enjoy!
+
+- [Railsbox](https://railsbox.io) — An online GUI to build virtual machines for web development. Similar to [PuPHPet](https://puphpet.com/) and [Protobox](http://getprotobox.com/), but uses Ansible for provisioning and supports Unicorn/Passenger out of the box. (If I have some spare time, I'd like to create a pull request for deploying to Digital Ocean.)
+- [Auto-Hide Sticky Header](http://osvaldas.info/auto-hide-sticky-header) — This useful and subtle navigation UI pattern is everywhere lately. Here Osvaldas Valutis provides a canonical example and explanation, including a few variations.
+- [Lorraine Loots on Instagram](http://instagram.com/lorraineloots) — Lorraine creates tiny, amazing drawing and paintings. Get lost in her Instagram feed!
+- [Skyline](http://skyline.is/) — "A starting point for building custom CSS frameworks." This is the type of groundwork that I wish Bootstrap and Foundation were built upon. Its modular organization is well-considered, and the use of SCSS and BEM notation appeal to me.
+- [Artoo](http://artoo.io/) — Framework for programming robots in Ruby. There's an [Arduino library](http://artoo.io/documentation/platforms/arduino/), which seems like a fun, native-feeling alternative to Processing.
