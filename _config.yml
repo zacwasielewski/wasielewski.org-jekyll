@@ -22,3 +22,7 @@ markdown: kramdown
 typeset:
   ignore: '.ignore'
   only: '.post-content'
+
+exclude:
+ - 'bower_components'
+ - 'node_modules'
